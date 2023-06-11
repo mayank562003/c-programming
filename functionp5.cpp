@@ -1,0 +1,25 @@
+#include<iostream>
+using namespace std;
+int pattern(int row,int col){
+    int n;
+    cout<<"enter the value of n";
+    cin>>n;
+    int a=1;
+    while(row<=n){
+        col=1;
+        while(col<=n){
+            cout<<a;
+            a=a+1;
+            col=col+1;
+        }
+        cout<<endl;
+        row=row+1;
+    }
+    return 0;
+}
+int main(){
+    int r=1,c,b,ans;
+    ans=pattern(r,c);
+    cout<<ans;
+    return 0;
+}
