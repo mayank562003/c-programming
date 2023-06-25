@@ -7,5 +7,6 @@ int main()
     for(int i=0;i<a;i++)
     for(int j=0;j<b;j++)
     cout<<arr[i][j]<<" \n"[j==b-1];
+    cout<<"abc";
     return 0;
 };
